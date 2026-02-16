@@ -201,13 +201,13 @@ img {
 }
 
 .navbar-brand img {
-  height: 50px;
+  height: 80px;
   width: auto;
   transition: var(--transition-base);
 }
 
 .navbar.scrolled .navbar-brand img {
-  height: 42px;
+  height: 65px;
 }
 
 .navbar .nav-link {
@@ -412,6 +412,7 @@ img {
   height: 300px;
   top: -80px;
   right: -60px;
+  background: rgba(245, 158, 11, 0.08);
   animation: hero-float 6s ease-in-out infinite;
 }
 
@@ -420,6 +421,7 @@ img {
   height: 200px;
   bottom: 10%;
   left: 5%;
+  background: rgba(16, 185, 129, 0.08);
   animation: hero-float 8s ease-in-out infinite 1s;
 }
 
@@ -428,6 +430,7 @@ img {
   height: 120px;
   top: 40%;
   right: 15%;
+  background: rgba(255, 255, 255, 0.06);
   animation: hero-pulse 4s ease-in-out infinite 0.5s;
 }
 
@@ -436,6 +439,7 @@ img {
   height: 80px;
   top: 20%;
   left: 20%;
+  background: rgba(37, 99, 235, 0.1);
   animation: hero-float 7s ease-in-out infinite 2s;
 }
 
@@ -626,7 +630,7 @@ img {
    ============================================================ */
 
 .stats-section {
-  background: var(--gradient-primary);
+  background: var(--gradient-stats);
   position: relative;
   padding: var(--section-py) 0;
   overflow: hidden;
@@ -708,6 +712,7 @@ img {
 
 .about-section {
   padding: var(--section-py) 0;
+  background: var(--gradient-section-light);
 }
 
 .about-image-wrapper {
@@ -907,7 +912,7 @@ img {
    ============================================================ */
 
 .why-choose {
-  background-color: var(--color-gray-50);
+  background: var(--gradient-section-mint);
   padding: var(--section-py) 0;
 }
 
@@ -1038,7 +1043,7 @@ img {
 
 .testimonials-section {
   padding: var(--section-py) 0;
-  background-color: var(--color-gray-50);
+  background: var(--gradient-testimonial);
 }
 
 .testimonial-card {
@@ -1164,7 +1169,7 @@ img {
    ============================================================ */
 
 .cta-section {
-  background: var(--gradient-cta);
+  background: var(--gradient-cta-warm);
   padding: var(--section-py) 0;
   text-align: center;
   position: relative;
@@ -1513,6 +1518,7 @@ img {
 
 .gallery-section {
   padding: var(--section-py) 0;
+  background: var(--gradient-gallery);
 }
 
 .gallery-grid {
@@ -1632,8 +1638,12 @@ img {
   margin-bottom: var(--space-lg);
 }
 
+.site-footer .text-muted {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
 .footer-logo img {
-  height: 40px;
+  height: 65px;
   width: auto;
 }
 
@@ -2019,6 +2029,42 @@ img {
 
 .bg-gray-50 {
   background-color: var(--color-gray-50) !important;
+}
+
+.bg-gradient-blue-wash {
+  background: var(--gradient-section-blue-wash) !important;
+}
+
+.bg-gradient-mint {
+  background: var(--gradient-section-mint) !important;
+}
+
+.bg-gradient-warm {
+  background: var(--gradient-section-warm) !important;
+}
+
+.bg-gradient-lavender {
+  background: var(--gradient-section-lavender) !important;
+}
+
+.bg-gradient-rose {
+  background: var(--gradient-section-rose) !important;
+}
+
+.bg-gradient-slate {
+  background: var(--gradient-section-slate) !important;
+}
+
+.bg-gradient-blog {
+  background: var(--gradient-blog) !important;
+}
+
+.bg-gradient-contact {
+  background: var(--gradient-contact) !important;
+}
+
+.bg-gradient-gallery {
+  background: var(--gradient-gallery) !important;
 }
 
 .section-padding {

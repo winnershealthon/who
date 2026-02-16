@@ -115,7 +115,22 @@
 
   /* ── Gradients ───────────────────────────────────────────── */
   --gradient-primary: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-  --gradient-hero: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #2563eb 100%);
+  --gradient-hero: linear-gradient(135deg, #0f172a 0%, #1a2d4a 30%, #1e3a5f 60%, #2563eb 100%);
   --gradient-cta: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
   --gradient-card-border: linear-gradient(135deg, var(--color-primary), var(--color-secondary), var(--color-accent));
+
+  /* Section background gradients — soft, healthcare-standard palette */
+  --gradient-section-light: linear-gradient(180deg, #ffffff 0%, #f0f7ff 100%);
+  --gradient-section-blue-wash: linear-gradient(180deg, #f0f7ff 0%, #e8f1fd 50%, #f8fbff 100%);
+  --gradient-section-mint: linear-gradient(180deg, #f0fdf8 0%, #e6faf2 50%, #f5fefb 100%);
+  --gradient-section-warm: linear-gradient(180deg, #fffbf0 0%, #fff8e6 50%, #fffdf5 100%);
+  --gradient-section-lavender: linear-gradient(180deg, #f5f3ff 0%, #ede9fe 50%, #f8f7ff 100%);
+  --gradient-section-rose: linear-gradient(180deg, #fff5f7 0%, #ffe8ee 50%, #fff9fa 100%);
+  --gradient-section-slate: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 50%, #f8fafc 100%);
+  --gradient-stats: linear-gradient(135deg, #0f172a 0%, #1e3a5f 40%, #2563eb 80%, #3b82f6 100%);
+  --gradient-cta-warm: linear-gradient(135deg, #2563eb 0%, #059669 50%, #10b981 100%);
+  --gradient-testimonial: linear-gradient(180deg, #f8fbff 0%, #eef4fd 40%, #f0f7ff 100%);
+  --gradient-contact: linear-gradient(180deg, #ffffff 0%, #f5fefb 50%, #f0fdf8 100%);
+  --gradient-gallery: linear-gradient(180deg, #fefce8 0%, #fffbeb 40%, #fffef5 100%);
+  --gradient-blog: linear-gradient(180deg, #f5f3ff 0%, #f0edff 40%, #f8f7ff 100%);
 }
