@@ -855,6 +855,11 @@ img {
   flex-direction: column;
 }
 
+.service-card.featured-gradient {
+  background-color: var(--color-white);
+  border-top-color: var(--color-primary);
+}
+
 .service-card:hover {
   transform: translateY(-8px);
   box-shadow: var(--shadow-card-hover);
