@@ -35,13 +35,24 @@
           <span class="mx-3">|</span>
           <span><i class="bi bi-envelope-fill me-2"></i><a href="mailto:winnershealth20@gmail.com">winnershealth20@gmail.com</a></span>
         </div>
-        <div class="col-md-4 text-end"><span><i class="bi bi-clock-fill me-2"></i>Mon – Fri: 9AM – 6PM</span></div>
+        <div class="col-md-4 text-end">
+          <div class="d-flex justify-content-end align-items-center gap-3">
+            <span><i class="bi bi-clock-fill me-2"></i>Mon – Fri: 9AM – 6PM | Sat: 10AM – 2PM</span>
+            <div class="social-links topbar-social">
+              <a href="https://wa.me/919786837575" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-link"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="social-link"><i class="bi bi-youtube"></i></a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link"><i class="bi bi-instagram"></i></a>
+              <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="social-link"><i class="bi bi-twitter-x"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- ============ NAVIGATION ============ -->
-  <nav class="navbar navbar-expand-lg sticky-top" id="mainNavbar" aria-label="Main navigation">
+  <nav class="navbar navbar-expand-lg" id="mainNavbar" aria-label="Main navigation">
     <div class="container">
       <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Winners Health On Logo" height="80" width="80"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -72,6 +83,80 @@
             <li class="breadcrumb-item active text-white" aria-current="page">Gallery</li>
           </ol>
         </nav>
+      </div>
+    </section>
+
+    <!-- ======== GALLERY CAROUSEL ======== -->
+    <section class="gallery-carousel section-padding" aria-label="Clinic highlights carousel">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Highlights</span>
+          <h2 class="section-title">Healing Moments at Winners Health On</h2>
+          <div class="section-divider"></div>
+          <p class="section-desc">A rotating view of our natural, patient-centred healing environment.</p>
+        </div>
+
+        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#galleryCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <!-- Slide 1: Clinic Exterior -->
+            <div class="carousel-item active">
+              <img src="https://placehold.co/1200x600/0f172a/ffffff?text=Clinic+Exterior" class="d-block w-100" alt="Welcoming exterior of Winners Health On clinic in Madurai">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Welcoming Clinic Exterior</h5>
+                <p>The calm, accessible entrance to our Madurai clinic.</p>
+              </div>
+            </div>
+
+            <!-- Slide 2: Consultation & Diagnosis -->
+            <div class="carousel-item">
+              <img src="https://placehold.co/1200x600/0369a1/ffffff?text=Consultation+Room" class="d-block w-100" alt="Consultation room where patients receive holistic assessments and guidance">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Personalised Consultations</h5>
+                <p>One-to-one guidance focused on the root cause of illness.</p>
+              </div>
+            </div>
+
+            <!-- Slide 3: Herbal Remedies -->
+            <div class="carousel-item">
+              <img src="https://placehold.co/1200x600/15803d/ffffff?text=Herbal+Remedies" class="d-block w-100" alt="Assortment of plant-based spagyric Electropathy remedies">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Plant-Based Remedies</h5>
+                <p>Spagyric Electropathy medicines prepared from natural plant sources.</p>
+              </div>
+            </div>
+
+            <!-- Slide 4: Therapy & Relaxation -->
+            <div class="carousel-item">
+              <img src="https://placehold.co/1200x600/bf360c/ffffff?text=Therapy+Room" class="d-block w-100" alt="Therapy room set up for massage, Dorn therapy and relaxation">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Therapeutic Spaces</h5>
+                <p>Warm, quiet rooms designed for relaxation and holistic therapies.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <p class="text-muted small mt-3">
+          These image placeholders are generated from a free online service.
+          For production, replace the URLs with your own royalty-free clinic photos
+          from trusted free stock providers.
+        </p>
       </div>
     </section>
 
@@ -220,7 +305,13 @@
             <div class="footer-brand">
               <img src="assets/logo.png" alt="Winners Health On" height="65" width="65" class="mb-3">
               <p class="text-muted small">Winners Health On is a trusted Electropathy clinic in Madurai offering holistic plant-based treatments to restore your body's natural balance.</p>
-              <div class="social-links mt-3"><a href="https://wa.me/919786837575" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-link"><i class="bi bi-whatsapp"></i></a></div>
+              <div class="social-links mt-3">
+                <a href="https://wa.me/919786837575" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="social-link"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube" class="social-link"><i class="bi bi-youtube"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link"><i class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="social-link"><i class="bi bi-twitter-x"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link"><i class="bi bi-linkedin"></i></a>
+              </div>
             </div>
           </div>
           <div class="col-lg-2 col-md-6">
