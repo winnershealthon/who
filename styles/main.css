@@ -176,6 +176,10 @@ img {
   gap: var(--space-lg);
 }
 
+.topbar-hours {
+  white-space: nowrap;
+}
+
 @media (max-width: 991.98px) {
   .top-bar {
     display: none;
